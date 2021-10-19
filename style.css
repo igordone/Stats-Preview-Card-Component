@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  font-family:Inter;
+  background-color: hsl(233, 47%, 7%);
+  max-width:100%;
+}
+
+.Container-main{
+  display:flex;
+  width:auto;
+  height:420px;
+  margin:80px;
+  margin-left:300px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius:7px;
+}
+
+.Container-content-text{
+  background-color: rgb(27, 25, 56);
+  align-items:center;
+  border-top-left-radius:7px;
+  border-bottom-left-radius:7px;
+  width:400px;
+  padding-left:50px;
+  padding-right:130px;
+}
+.container-title-content{
+  color:white;
+  margin-left:50px;
+  margin-top:60px;
+  font-size:22px;
+  width:424px;
+}
+  
+#Insights{
+  text-decoration:none;
+  color: hsl(277, 64%, 61%);
+}
+.Container-text{
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-left:50px;
+  margin-top:30px;
+  font-size:14px;
+  line-height:20px;
+}
+.Container-stats{
+  display:flex;
+  flex-direction:auto auto auto;
+  margin-top:60px;
+  margin-left: -31px;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family:Lexend+deca;
+}
+.container-companies-stats{
+  display:flex;
+  flex-direction:column;
+  margin-left:85px;
+  margin-top:10px;
+  font-size:11px;
+  letter-spacing:0.5px;
+  line-height:10px;
+}
+#companies-nb{
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+}
+.container-templates-stats{
+  display:flex;
+  flex-direction:column;
+  margin-left:72px;
+  margin-top:10px;
+  font-size:11px;
+  letter-spacing:0.5px;
+  line-height:10px;
+}
+#templates-nb{
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+}
+.container-queries-stats{
+  display:flex;
+  flex-direction:column;
+  margin-left:64px;
+  margin-top:10px;
+  font-size:11px;
+  letter-spacing:0.5px;
+  line-height:10px;
+}
+#queries-nb{
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+}
+
+.container-img{
+  display:flex;
+  align-items:center;
+  margin-left:3px;
+  background-color:hsl(277, 79%, 32%);
+  border-top-right-radius: 7px;
+  border-bottom-right-radius:7px;
+}
+#img{
+  filter:opacity(50%);
+  height:100%;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius:7px;
+}
+
+.attribution{
+  font-family:Inter;
+  color:white;
+  text-decoration:none;
+  text-align:center;
+}
+#name{
+text-decoration:none;
+color:hsl(277, 64%, 61%);
+}
+#frontend{
+  text-decoration:none;
+  color: hsl(277, 64%, 61%);
+}
